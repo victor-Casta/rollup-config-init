@@ -1,0 +1,21 @@
+{
+  "name": "rollup-config-init",
+  "version": "1.0.0",
+  "description": "🌀 Rollup Testing Project 📦  Welcome to this repository where I'm diving into the capabilities of Rollup, a powerful module bundler for web applications. I'm excited to uncover how Rollup can optimize and efficiently organize my source code, enabling me to create leaner and more performant bundles.",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --config web-dev-server.config.js",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-html": "^1.0.2",
+    "@rollup/plugin-image": "^3.0.2",
+    "@web/dev-server": "^0.3.0",
+    "rollup": "^3.28.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-css-only": "^4.3.0"
+  }
+}
